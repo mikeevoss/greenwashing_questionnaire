@@ -1,0 +1,18 @@
+.root {
+  background-color: #fff;
+  border-radius: 3px;
+  color: var(--color-green);
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.primary {
+  background-color: var(--color-green--light);
+  color: #fff;
+}
+
+.hidden {
+  opacity: 0;
+}
