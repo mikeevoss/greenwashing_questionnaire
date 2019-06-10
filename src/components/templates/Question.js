@@ -38,10 +38,10 @@ class Question extends PureComponent {
   }
 
   handleSelect = selectedOption => {
-    const { id } = this.state;
-    const answers = JSON.parse(localStorage.getItem('answers') || '[]');
-    answers[id] = selectedOption;
-    localStorage.setItem('answers', answers);
+    // const { id } = this.state;
+    // const answers = JSON.parse(localStorage.getItem('answers') || '[]');
+    // answers[id] = selectedOption;
+    // localStorage.setItem('answers', answers);
     if (questions[this.index + 1]) {
       history.push(`/question/${this.index + 1}`);
     } else {
