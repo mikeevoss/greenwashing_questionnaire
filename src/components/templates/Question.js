@@ -40,7 +40,6 @@ class Question extends PureComponent {
 
   handleSelect = selectedOption => {
     const answers = JSON.parse(localStorage.getItem("answers")) || {};
-    console.log(answers);
     answers[this.index] = selectedOption;
     localStorage.setItem("answers", JSON.stringify(answers));
     if (questions[this.index + 1]) {
