@@ -4,11 +4,15 @@
     "label": "Het milieu en ik...",
     "image": "/images/kitten.jpg",
     "options": [
-      "Haten elkaar",
-      "Hebben een haatliefde relatie",
-      "Zijn vrienden",
-      "Zijn meer dan vrienden",
-      "Zijn getrouwd"
+      { "label": "Haten elkaar", "category": "personality", "value": 1 },
+      {
+        "label": "Hebben een haatliefde relatie",
+        "category": "other",
+        "value": 1
+      },
+      { "label": "Zijn vrienden", "category": "other", "value": 1 },
+      { "label": "Zijn meer dan vrienden", "category": "other", "value": 1 },
+      { "label": "Zijn getrouwd", "category": "other", "value": 1 }
     ]
   },
   {
