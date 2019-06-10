@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../elements/Container";
 import Button from "../elements/Button";
 
-const LookUp = () => (
+const Ready = () => (
   <Container>
     <h1>Alles is gereed</h1>
 
@@ -12,4 +12,4 @@ const LookUp = () => (
   </Container>
 );
 
-export default LookUp;
+export default Ready;
