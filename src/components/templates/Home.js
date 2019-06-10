@@ -7,7 +7,7 @@ const Home = () => (
     <h1>FUTURE GREEN JOBS</h1>
     <p className="lead">Druk op de knop om verder te gaan</p>
     <p className="lead">
-      <Button primary writeFile="2" to="/info">
+      <Button primary writeFile="2" to="/look-up">
         Start
       </Button>
     </p>
