@@ -47,13 +47,14 @@ class Question extends PureComponent {
   };
 
   render() {
-    const { label, id } = this.state;
+    const { label, image, id } = this.state;
 
     return (
       <Container>
         <h1>
           {id}. {label}
         </h1>
+        {image && <img src={image} alt="" />}
         <ChoiceList onChange={this.handleSelect} {...this.state} />
       </Container>
     );
