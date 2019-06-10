@@ -1,29 +1,41 @@
 const express = require("express");
 const app = express();
-const http = require("http").Server(app);
-const io = require("socket.io")(http);
 const fs = require("fs");
+const bodyParser = require("body-parser");
+const cors = require("cors");
+const shortId = require("shortid");
 
 app.use(express.static("public"));
+app.use(
+  bodyParser.urlencoded({
+    extended: true
+  })
+);
+app.use(bodyParser.json());
+app.use(cors());
 
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/public/index.html");
 });
 
-app.get('/write/:message', function(req, res) {
+app.get("/write/:message", function(req, res) {
   const { message } = req.params;
-  handleButtonPress({ message, filename: 'result' });
+  handleButtonPress({ message, filename: "result" });
   res.send(message);
-})
+});
 
-app.get('/write/response/:message', function(req, res) {
-  const { message } = req.params;
-  handleButtonPress({ message, filename: 'responses' });
-  res.send(message);
-})
+app.post("/write/responses", function(req, res) {
+  const file = `${__dirname}/output/responses.json`;
+  var responses = JSON.parse(fs.readFileSync(file, "utf8"));
+  const id = shortId();
+  const newResponses = { ...responses };
+  newResponses[id] = req.body;
+  fs.writeFileSync(file, JSON.stringify(newResponses));
+  res.send({ id });
+});
 
 const handleButtonPress = ({ message, filename }) => {
-  fs.writeFile(`${__dirname}/output/${filename}`, message, (err) => {
+  fs.writeFile(`${__dirname}/output/${filename}`, message, err => {
     if (err) {
       return console.log(err);
     }
@@ -32,11 +44,6 @@ const handleButtonPress = ({ message, filename }) => {
   });
 };
 
-io.on("connection", function(socket) {
-  console.log("a user connected");
-  socket.on("button_press", handleButtonPress);
-});
-
-http.listen(4000, function() {
+app.listen(4000, function() {
   console.log("listening on *:4000");
 });

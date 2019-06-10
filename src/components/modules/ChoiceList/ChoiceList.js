@@ -7,7 +7,7 @@ const ChoiceList = ({ options, onChange }) => (
       const label = typeof option === "object" ? option.label : option;
       return (
         <li key={label} className={s.item}>
-          <button onClick={() => onChange(label)} className={s.button}>
+          <button onClick={() => onChange(option)} className={s.button}>
             {label}
           </button>
         </li>

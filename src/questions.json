@@ -4,15 +4,31 @@
     "label": "Het milieu en ik...",
     "image": "/images/kitten.jpg",
     "options": [
-      { "label": "Haten elkaar", "category": "personality", "value": 1 },
       {
-        "label": "Hebben een haatliefde relatie",
-        "category": "other",
+        "label": "Haten elkaar",
+        "category": "Realistisch",
         "value": 1
       },
-      { "label": "Zijn vrienden", "category": "other", "value": 1 },
-      { "label": "Zijn meer dan vrienden", "category": "other", "value": 1 },
-      { "label": "Zijn getrouwd", "category": "other", "value": 1 }
+      {
+        "label": "Hebben een haatliefde relatie",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Zijn vrienden",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Zijn meer dan vrienden",
+        "category": "Sociaal",
+        "value": 1
+      },
+      {
+        "label": "Zijn getrouwd",
+        "category": "Ondernemend",
+        "value": 1
+      }
     ]
   },
   {
@@ -20,11 +36,31 @@
     "label": "Wanneer ik door het bos loop",
     "image": "",
     "options": [
-      "Wil ik bomen kappen",
-      "Vraag ik mij af wat ik hier doe",
-      "Voel ik mij te groen",
-      "Laat ik dit iedereen weten",
-      "Voel ik mij goed"
+      {
+        "label": "Wil ik bomen kappen",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Vraag ik mij af wat ik hier doe",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Voel ik mij te groen",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Laat ik dit iedereen weten",
+        "category": "Sociaal",
+        "value": 1
+      },
+      {
+        "label": "Voel ik mij goed",
+        "category": "Ondernemend",
+        "value": 1
+      }
     ]
   },
   {
@@ -32,10 +68,31 @@
     "label": "Ohnee! De aarde warmt op, wat doe je?",
     "image": "",
     "options": [
-      "Niks",
-      "Doen alsof ik een steentje bijdraagVraag ik mij af wat ik hier doe",
-      "Een klein steentje bijdragen en die opblazen",
-      "Jezelf verduurzamen"
+      {
+        "label": "Niks",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Doen alsof ik een steentje bijdraag",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Vraag ik mij af wat ik hier doe",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Een klein steentje bijdragen en die opblazen",
+        "category": "Sociaal",
+        "value": 1
+      },
+      {
+        "label": "Jezelf verduurzamen",
+        "category": "Ondernemend",
+        "value": 1
+      }
     ]
   }
 ]

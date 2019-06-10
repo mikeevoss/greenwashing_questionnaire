@@ -38,16 +38,19 @@ class Question extends PureComponent {
     }
   }
 
-  handleSelect = selectedOption => {
-    const answers = JSON.parse(localStorage.getItem("answers")) || {};
-    answers[this.index] = selectedOption;
+  handleSelect = async answer => {
+    const answers = JSON.parse(localStorage.getItem("answers")) || { raw: [] };
+    answers[answer.category] = (answers[answer.category] || 0) + answer.value;
+    answers.raw = [
+      ...answers.raw,
+      { time: new Date().toISOString(), ...answer }
+    ];
     localStorage.setItem("answers", JSON.stringify(answers));
     if (questions[this.index + 1]) {
       history.push(`/question/${this.index + 1}`);
     } else {
-      history.push(`/ready`);
+      history.push(`/calculating`);
     }
-    // fetch(`http://localhost:4000/write/response/${selectedOption}`);
   };
 
   render() {
@@ -60,7 +63,7 @@ class Question extends PureComponent {
         </h1>
         {image && <img src={image} alt="" />}
         <ChoiceList onChange={this.handleSelect} {...this.state} />
-        <ProgressBar size={(this.index + 1) * 100 / questions.length} />
+        <ProgressBar size={((this.index + 1) * 100) / questions.length} />
       </Container>
     );
   }
