@@ -6,6 +6,7 @@ import history from "../../history";
 
 import Container from "../elements/Container";
 import ChoiceList from "../modules/ChoiceList";
+import ProgressBar from "../modules/ProgressBar";
 
 class Question extends PureComponent {
   constructor(props) {
@@ -38,10 +39,10 @@ class Question extends PureComponent {
   }
 
   handleSelect = selectedOption => {
-    // const { id } = this.state;
-    // const answers = JSON.parse(localStorage.getItem('answers') || '[]');
-    // answers[this.index] = selectedOption;
-    // localStorage.setItem('answers', answers);
+    const answers = JSON.parse(localStorage.getItem("answers")) || {};
+    console.log(answers);
+    answers[this.index] = selectedOption;
+    localStorage.setItem("answers", JSON.stringify(answers));
     if (questions[this.index + 1]) {
       history.push(`/question/${this.index + 1}`);
     } else {
@@ -60,6 +61,7 @@ class Question extends PureComponent {
         </h1>
         {image && <img src={image} alt="" />}
         <ChoiceList onChange={this.handleSelect} {...this.state} />
+        <ProgressBar size={(this.index + 1) * 100 / questions.length} />
       </Container>
     );
   }

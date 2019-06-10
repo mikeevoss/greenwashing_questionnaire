@@ -1,0 +1,14 @@
+.root {
+  bottom: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  height: 0.8rem;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.inner {
+  background-color: #fff;
+  height: 100%;
+  transition: width 0.2s;
+}
