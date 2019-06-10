@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import cookie from "js-cookie";
+// import cookie from "js-cookie";
 // import shortId from 'shortId';
 import questions from "../../questions";
 import history from "../../history";
