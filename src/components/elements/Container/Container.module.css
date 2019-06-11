@@ -2,3 +2,7 @@
   text-align: center;
   max-width: 34em;
 }
+
+.fullWidth {
+  max-width: inherit;
+}

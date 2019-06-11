@@ -18,6 +18,7 @@ class Calculating extends PureComponent {
       // for testing, if no data
       this.setResult({ id: "test" });
     }
+    fetch(`http://localhost:4000/write/5`);
   }
 
   submit = async answers => {

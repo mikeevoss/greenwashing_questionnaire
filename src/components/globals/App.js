@@ -9,6 +9,7 @@ import Ready from "../templates/Ready";
 import Results from "../templates/Results";
 import LookUp from "../templates/LookUp";
 import Calculating from "../templates/Calculating";
+import LastScreen from "../templates/LastScreen";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/calculating" component={Calculating} />
         <Route exact path="/result/:id" component={Results} />
         <Route exact path="/ready" component={Ready} />
+        <Route exact path="/final" component={LastScreen} />
       </Router>
     </div>
   );

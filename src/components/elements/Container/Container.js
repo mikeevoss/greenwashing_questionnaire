@@ -1,6 +1,9 @@
-import React from 'react';
-import s from './Container.module.css';
+import React from "react";
+import cN from "classnames";
+import s from "./Container.module.css";
 
-const Container = ({ children }) => <div className={s.root}>{children}</div>
+const Container = ({ children, fullWidth }) => (
+  <div className={cN(s.root, { [s.fullWidth]: fullWidth })}>{children}</div>
+);
 
 export default Container;
