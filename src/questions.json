@@ -2,7 +2,7 @@
   {
     "id": 1,
     "label": "Het milieu en ik...",
-    "image": "/images/kitten.jpg",
+    "image": "",
     "options": [
       {
         "label": "Haten elkaar",
@@ -15,18 +15,13 @@
         "value": 1
       },
       {
-        "label": "Zijn vrienden",
+        "label": "Zien elkaar nooit",
         "category": "Artistiek",
         "value": 1
       },
       {
-        "label": "Zijn meer dan vrienden",
+        "label": "Kennen elkaar niet",
         "category": "Sociaal",
-        "value": 1
-      },
-      {
-        "label": "Zijn getrouwd",
-        "category": "Ondernemend",
         "value": 1
       }
     ]
@@ -55,11 +50,6 @@
         "label": "Laat ik dit iedereen weten",
         "category": "Sociaal",
         "value": 1
-      },
-      {
-        "label": "Voel ik mij goed",
-        "category": "Ondernemend",
-        "value": 1
       }
     ]
   },
@@ -79,20 +69,296 @@
         "value": 1
       },
       {
-        "label": "Vraag ik mij af wat ik hier doe",
+        "label": "Een klein steentje bijdragen en die opblazen",
         "category": "Artistiek",
         "value": 1
       },
       {
-        "label": "Een klein steentje bijdragen en die opblazen",
+        "label": "Een zwembad in de tuin aanleggen",
         "category": "Sociaal",
         "value": 1
       },
       {
-        "label": "Jezelf verduurzamen",
+        "label": "Dansen naar de goden",
         "category": "Ondernemend",
         "value": 1
       }
     ]
+  },
+  {
+    "id": 4,
+    "label": "Wat doe je liever?",
+    "image": "",
+    "options": [
+      {
+        "label": "Doen alsof ik zonnepanelen koop",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Nadenken over zonnepanelen",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Iedereen vertellen dat je intenties hebt om zonnepanelen te kopen",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Zonnepanelen onderzoeken",
+        "category": "Sociaal",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "label": "Kimaat-mars",
+    "image": "",
+    "options": [
+      {
+        "label": "Lekker!",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Bah",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Liever een Snicker",
+        "category": "Artistiek",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "label": "Welke kies je?",
+    "image": "",
+    "options": [
+      {
+        "label": "CO2",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Asbest",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Kool",
+        "category": "Artistiek",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "label": "Het bedrijf waar je werkt wilt groener overkomen, wat doe je?",
+    "image": "",
+    "options": [
+      {
+        "label": "Een eigen nietszeggend label beginnen",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Loze beloftes over het milieu maken",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "De huisstijl naar groen veranderen",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Zeggen dat je relatief groen bent",
+        "category": "Sociaal",
+        "value": 1
+      },
+      {
+        "label": "Gebruik maken van onduidelijke termen zoals ‘duurzaam’",
+        "category": "Ondernemend",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "label": "Je collega heeft een elektrische auto gekocht, wat doe je?",
+    "image": "",
+    "options": [
+      {
+        "label": "Uitleggen dat die acus kunnen echt niet kunnen",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Opscheppen over hoeveel actieradius jouw diesel heeft",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Hem ontslaan ",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Deze collega vanaf nu belachelijk maken ",
+        "category": "Sociaal",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "label": "Het bedrijf waar je werkt wilt groener overkomen, wat doe je?",
+    "image": "",
+    "options": [
+      {
+        "label": "Een eigen nietszeggend label beginnen",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Loze beloftes over het milieu maken",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "De huisstijl naar groen veranderen",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Zeggen dat je relatief groen bent",
+        "category": "Sociaal",
+        "value": 1
+      },
+      {
+        "label": "Gebruik maken van onduidelijke termen zoals ‘duurzaam’",
+        "category": "Ondernemend",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "label": "Stel het bedrijf waar je werkt ligt onder vuur door haar klimaatbeleid, wat doe je?",
+    "image": "",
+    "options": [
+      {
+        "label": "Niks",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Ik koop een elektrische auto en toon dit aan alle media",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Ik verander van baan",
+        "category": "Artistiek",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "label": "Oh nee! De regering wil een co2 taks invoeren, wat doe je?",
+    "image": "",
+    "options": [
+      {
+        "label": "Niks",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Verhuizen naar Duitsland",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "De media proberen om te kopen ",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Lobbyisten aannemen om de publieke opinie te kantellen",
+        "category": "Sociaal",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "label": "Wat zie je hierin?",
+    "image": "/images/inkt.jpg",
+    "options": [
+      {
+        "label": "Kunst",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Inkt",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Lekker weer",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Geld",
+        "category": "Sociaal",
+        "value": 1
+      },
+      {
+        "label": "Een geheime formule",
+        "category": "Sociaal",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "label": "Wat wilde je vroeger worden?",
+    "image": "",
+    "options": [
+      {
+        "label": "De beste",
+        "category": "Realistisch",
+        "value": 1
+      },
+      {
+        "label": "Miljonair",
+        "category": "Intellectueel",
+        "value": 1
+      },
+      {
+        "label": "Greenwasher",
+        "category": "Artistiek",
+        "value": 1
+      },
+      {
+        "label": "Oplichter",
+        "category": "Sociaal",
+        "value": 1
+      },
+      {
+        "label": "Kunstenaar",
+        "category": "Sociaal",
+        "value": 1
+      }
+    ]
   }
+
 ]
