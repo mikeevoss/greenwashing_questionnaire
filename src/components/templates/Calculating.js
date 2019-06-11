@@ -8,7 +8,7 @@ class Calculating extends PureComponent {
     result: {}
   };
 
-  duration = 3000;
+  duration = 6000;
 
   componentDidMount() {
     const answers = localStorage.getItem("answers");
@@ -46,14 +46,14 @@ class Calculating extends PureComponent {
       <Container>
         {!result.id ? (
           <Fragment>
-            <h1>Je score wordt berekend</h1>
+            <h1>Jouw persoonlijke future green job word berekend</h1>
           </Fragment>
         ) : (
           <Fragment>
-            <h1>Je score is berekend</h1>
+            <h1>Done!</h1>
 
-            <Button writeFile="8" to={`/result/${result.id}`} primary>
-              Bekijk jouw green job
+            <Button writeFile="6" to={`/result/${result.id}`} primary>
+              Mijn future green job
             </Button>
           </Fragment>
         )}

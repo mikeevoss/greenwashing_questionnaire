@@ -6,8 +6,8 @@ const LookUp = () => (
   <Container>
     <h1>Kijk omhoog</h1>
 
-    <Button showDelay={15000} writeFile="3" to="/info" primary>
-      Verder
+    <Button showDelay={25000} writeFile="3" to="/info" primary>
+      Let's go!
     </Button>
   </Container>
 );

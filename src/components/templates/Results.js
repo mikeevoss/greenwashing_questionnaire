@@ -37,7 +37,7 @@ class Results extends PureComponent {
           ))}
         </ul>
 
-        <Button showDelay={500} writeFile="8" to="/" primary>
+        <Button showDelay={500} writeFile="1" to="/" primary>
           Klaar
         </Button>
       </Container>
