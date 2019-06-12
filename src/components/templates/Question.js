@@ -6,6 +6,7 @@ import history from "../../history";
 
 import Container from "../elements/Container";
 import ChoiceList from "../modules/ChoiceList";
+import Dilemma from "../modules/Dilemma";
 import ProgressBar from "../modules/ProgressBar";
 
 class Question extends PureComponent {
@@ -38,7 +39,7 @@ class Question extends PureComponent {
     }
   }
 
-  handleSelect = async answer => {
+  handleSelect = async (answer, shouldContinue) => {
     const answers = JSON.parse(localStorage.getItem("answers")) || { raw: [] };
     answers[answer.category] = (answers[answer.category] || 0) + answer.value;
     answers.raw = [
@@ -46,6 +47,8 @@ class Question extends PureComponent {
       { time: new Date().toISOString(), ...answer }
     ];
     localStorage.setItem("answers", JSON.stringify(answers));
+
+    if (!shouldContinue) return;
     if (questions[this.index + 1]) {
       history.push(`/question/${this.index + 1}`);
     } else {
@@ -54,7 +57,11 @@ class Question extends PureComponent {
   };
 
   render() {
-    const { label, image, id } = this.state;
+    const { label, image, id, type } = this.state;
+    let question = <ChoiceList key={id} onChange={this.handleSelect} {...this.state} />;
+    if (type === "dilemma") {
+      question = <Dilemma key={id} onChange={this.handleSelect} {...this.state} />;
+    }
 
     return (
       <Container>
@@ -62,7 +69,7 @@ class Question extends PureComponent {
           {id}. {label}
         </h1>
         {image && <img src={image} alt="" />}
-        <ChoiceList onChange={this.handleSelect} {...this.state} />
+        {question}
         <ProgressBar size={((this.index + 1) * 100) / questions.length} />
       </Container>
     );

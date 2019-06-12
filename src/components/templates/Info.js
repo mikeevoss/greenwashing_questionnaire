@@ -17,7 +17,7 @@ const Info = () => (
       <Button showDelay={3000} writeFile="4" to="/question/0" primary>
         Start de test
       </Button>
-      <Button showDelay={3000} to="/info">
+      <Button showDelay={3000} to="/explainer">
         Ik snap het
       </Button>
     </ButtonGroup>

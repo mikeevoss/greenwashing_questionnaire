@@ -359,6 +359,189 @@
         "value": 1
       }
     ]
+  },
+  {
+    "id": 14,
+    "label": "Welke kies je?",
+    "image": "",
+    "type": "dilemma",
+    "options": [
+      {
+        "items": [
+          {
+            "label": "Filmen",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Gefilmd worden",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Huis verkopen",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Huis verbouwen",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Kok",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Ober",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Schaken",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Schilderen",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Lezen",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Presenteren",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Werkelijkheid",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Sprookjes",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "label": "Welke kies je?",
+    "image": "",
+    "type": "dilemma",
+    "options": [
+      {
+        "items": [
+          {
+            "label": "Wat is",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Wat kan zijn",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "zwart en wit",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Grijs",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Binnen",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Buiten",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Aanpassen",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Controleren",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Wilskrachtig",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Zachtzinnig",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "label": "Dansvloer",
+            "category": "Intellectueel",
+            "value": 1
+          },
+          {
+            "label": "Bar",
+            "category": "Intellectueel",
+            "value": 1
+          }
+        ]
+      }
+    ]
   }
-
 ]
