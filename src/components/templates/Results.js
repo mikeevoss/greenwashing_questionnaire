@@ -57,7 +57,7 @@ class Results extends PureComponent {
   }
 
   render() {
-    const { job } = this.state;
+    const { job, results } = this.state;
 
     return (
       <Container fullWidth>
@@ -65,7 +65,7 @@ class Results extends PureComponent {
 
         <JobGenerator duration={3000}>{job.label}</JobGenerator>
 
-          <p>Je scoorde het hoogste op; Sociaal</p>
+          <p>Je scoorde het hoogste op: {results[0].label}</p>
 
         <Button showDelay={3500} to="/final" primary>
           Volgende

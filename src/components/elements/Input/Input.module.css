@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.input {
+  font-size: 1em;
+  padding: 0.25em;
+}
