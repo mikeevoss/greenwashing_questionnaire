@@ -61,12 +61,14 @@ class Results extends PureComponent {
 
     return (
       <Container fullWidth>
-        <h1>Alles is gereed</h1>
+        <h1>Jouw persoonlijke future green job is</h1>
 
         <JobGenerator duration={3000}>{job.label}</JobGenerator>
 
+          <p>Je scoorde het hoogste op; Sociaal</p>
+
         <Button showDelay={3500} to="/final" primary>
-          Klaar
+          Volgende
         </Button>
       </Container>
     );

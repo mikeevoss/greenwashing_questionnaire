@@ -14,10 +14,10 @@ const Info = () => (
     <p>Succes (en plezier)!</p>
 
     <ButtonGroup>
-      <Button showDelay={3000} writeFile="4" to="/question/0" primary>
+    <Button showDelay={3000} writeFile="4" to="/question/0" primary>
         Start de test
-      </Button>
-      <Button showDelay={3000} to="/explainer">
+    </Button>
+    <Button showDelay={3000} to="/info">
         Ik snap het
       </Button>
     </ButtonGroup>
