@@ -6,7 +6,7 @@ import Input from "../elements/Input";
 
 class LastScreen extends PureComponent {
   handleSubmit = e => {
-    e.preventDefault();
+    // e.preventDefault();
     console.log(e);
   };
 

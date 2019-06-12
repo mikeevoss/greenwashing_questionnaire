@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import { Link } from "react-router-dom";
 import cN from "classnames";
 import s from "./Button.module.css";
+import history from "../../../history";
 
 class Button extends PureComponent {
   constructor(props) {
@@ -23,7 +24,9 @@ class Button extends PureComponent {
   }
 
   show = () => {
+    const { autoGoAfterDelay, to } = this.props;
     this.setState({ hidden: false });
+    if (autoGoAfterDelay) history.push(to);
   };
 
   handleClick = () => {
