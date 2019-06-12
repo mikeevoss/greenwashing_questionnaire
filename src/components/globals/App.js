@@ -14,19 +14,17 @@ import LastScreen from "../templates/LastScreen";
 
 function App() {
   return (
-    <div className="site-wrapper">
-      <Router history={history}>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/look-up" component={LookUp} />
-        <Route exact path="/info" component={Info} />
-        <Route exact path="/explainer" component={Explainer} />
-        <Route exact path="/question/:index" component={Question} />
-        <Route exact path="/calculating" component={Calculating} />
-        <Route exact path="/result/:id" component={Results} />
-        <Route exact path="/ready" component={Ready} />
-        <Route exact path="/final" component={LastScreen} />
-      </Router>
-    </div>
+    <Router history={history}>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/look-up" component={LookUp} />
+      <Route exact path="/info" component={Info} />
+      <Route exact path="/explainer" component={Explainer} />
+      <Route exact path="/question/:index" component={Question} />
+      <Route exact path="/calculating" component={Calculating} />
+      <Route exact path="/result/:id" component={Results} />
+      <Route exact path="/ready" component={Ready} />
+      <Route exact path="/final" component={LastScreen} />
+    </Router>
   );
 }
 

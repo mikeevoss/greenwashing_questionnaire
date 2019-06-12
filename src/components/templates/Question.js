@@ -58,9 +58,11 @@ class Question extends PureComponent {
 
   render() {
     const { label, image, id, type } = this.state;
-    let question = <ChoiceList key={id} onChange={this.handleSelect} {...this.state} />;
+    let question = <ChoiceList onChange={this.handleSelect} {...this.state} />;
     if (type === "dilemma") {
-      question = <Dilemma key={id} onChange={this.handleSelect} {...this.state} />;
+      question = (
+        <Dilemma key={id} onChange={this.handleSelect} {...this.state} />
+      );
     }
 
     return (
@@ -69,7 +71,7 @@ class Question extends PureComponent {
           {id}. {label}
         </h1>
         {image && <img src={image} alt="" />}
-        {question}
+        <div style={{ position: "relative" }}>{question}</div>
         <ProgressBar size={((this.index + 1) * 100) / questions.length} />
       </Container>
     );

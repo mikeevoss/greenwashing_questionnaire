@@ -37,7 +37,15 @@ class Button extends PureComponent {
   };
 
   render() {
-    const { to, children, primary, showDelay, writeFile, ...rest } = this.props;
+    const {
+      to,
+      children,
+      primary,
+      showDelay,
+      writeFile,
+      autoGoAfterDelay,
+      ...rest
+    } = this.props;
     const { hidden } = this.state;
     return (
       <Link

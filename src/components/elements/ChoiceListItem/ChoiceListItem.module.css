@@ -1,7 +1,6 @@
 .root {
-  list-style: none;
-  min-height: 250px;
-  padding: 0;
+  position: absolute;
+  top: 0;
   width: 100%;
 }
 
@@ -24,22 +23,9 @@
 
 .itemEnter {
   opacity: 0;
-  transform: translateX(100%);
+  transition: 0.5s;
 }
 
 .itemEnterActive {
   opacity: 1;
-  transform: translateX(0);
-}
-
-.itemExit {
-  opacity: 0;
-  transform: translateX(-100%);
-  transition-delay: 0 !important;
-}
-
-.itemEnterActive {
-  opacity: 1;
-  transform: translateX(0);
-  transition-delay: 0 !important;
 }

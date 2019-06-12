@@ -1,8 +1,8 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 import cN from "classnames";
 import s from "./Dilemma.module.css";
 
-class Dilemma extends PureComponent {
+class Dilemma extends Component {
   state = {
     results: []
   };
@@ -31,27 +31,29 @@ class Dilemma extends PureComponent {
 
     return (
       <ul className={cN(s.root)}>
-        {options.map((option, index) => {
-          return (
-            <li key={index} className={s.option}>
-              <ul className={cN(s.list)}>
-                {option.items.map(option => {
-                  const active =
-                    results[index] && results[index].label === option.label;
-                  return (
-                    <button
-                      key={option.label}
-                      onClick={() => this.handleChange(option, index)}
-                      className={cN(s.button, { [s.active]: active })}
-                    >
-                      {option.label}
-                    </button>
-                  );
-                })}
-              </ul>
-            </li>
-          );
-        })}
+        {options &&
+          options.map((option, index) => {
+            return (
+              <li key={index} className={s.option}>
+                <ul className={cN(s.list)}>
+                  {!options.items &&
+                    option.items.map(option => {
+                      const active =
+                        results[index] && results[index].label === option.label;
+                      return (
+                        <button
+                          key={option.label}
+                          onClick={() => this.handleChange(option, index)}
+                          className={cN(s.button, { [s.active]: active })}
+                        >
+                          {option.label}
+                        </button>
+                      );
+                    })}
+                </ul>
+              </li>
+            );
+          })}
       </ul>
     );
   }
