@@ -13,7 +13,7 @@ class LastScreen extends PureComponent {
   render() {
     return (
       <Container>
-        <h1>Kijk omhoog</h1>
+        <h1>Kijk naar de muur</h1>
         <p>
          Vul je mail in en ontvang de 'greenwash-scanner' in PDF.
         </p>

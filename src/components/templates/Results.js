@@ -67,7 +67,7 @@ class Results extends PureComponent {
 
           {/*<p>Je scoorde het hoogste op: {results[0].label}</p>*/}
 
-        <Button autoGoAfterDelay showDelay={80000} to="/final" primary>
+        <Button autoGoAfterDelay showDelay={70000} to="/final" primary>
           Volgende
         </Button>
       </Container>

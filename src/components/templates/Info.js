@@ -7,7 +7,7 @@ const Info = () => (
   <Container>
     <h1>Nog wat laatste info</h1>
     <p>
-      De test bestaat uit ongeveer 15 vragen die inzicht geven in jouw kwaliteiten. Op basis hiervan kunnen we jou een 'future green job' aanbevelen. Denk niet te lang na over de vragen, vul
+      De test bestaat uit 15 vragen die inzicht geven in jouw kwaliteiten. Op basis hiervan kunnen we jou een 'future green job' aanbevelen. Denk niet te lang na over de vragen, vul
       het eerste wat in je opkomt.
     </p>
 
