@@ -65,9 +65,9 @@ class Results extends PureComponent {
 
         <JobGenerator duration={3000}>{job.label}</JobGenerator>
 
-          <p>Je scoorde het hoogste op: {results[0].label}</p>
+          {/*<p>Je scoorde het hoogste op: {results[0].label}</p>*/}
 
-        <Button showDelay={3500} to="/final" primary>
+        <Button autoGoAfterDelay showDelay={80000} to="/final" primary>
           Volgende
         </Button>
       </Container>

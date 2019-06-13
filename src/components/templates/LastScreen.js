@@ -15,15 +15,15 @@ class LastScreen extends PureComponent {
       <Container>
         <h1>Kijk omhoog</h1>
         <p>
-          Vul je mail voor meer info over hoe je 'greenwashing' kunt herkennen.
+         Vul je mail in en ontvang de 'greenwash-scanner' in PDF.
         </p>
         <form onSubmit={this.handleSubmit}>
           <Input label="Jouw e-mailadres" />
           <ButtonGroup>
-            <Button onClick={this.handleSubmit} showDelay={1000} writeFile="1" to="/" primary>
+            <Button onClick={this.handleSubmit} showDelay={20000} writeFile="1" to="/" primary>
               Versturen
             </Button>
-            <Button showDelay={1000} writeFile="1" to="/">
+            <Button showDelay={20000} writeFile="1" to="/">
               Nee bedankt
             </Button>
           </ButtonGroup>

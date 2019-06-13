@@ -6,23 +6,23 @@
     "options": [
       {
         "label": "Haten elkaar",
-        "category": "Realistisch",
-        "value": 1
+        "category": "",
+        "value":1
       },
       {
         "label": "Hebben een haatliefde relatie",
-        "category": "Intellectueel",
-        "value": 1
+        "category": "",
+        "value":1
       },
       {
         "label": "Zien elkaar nooit",
-        "category": "Artistiek",
-        "value": 1
+        "category": "",
+        "value":1
       },
       {
         "label": "Kennen elkaar niet",
-        "category": "Sociaal",
-        "value": 1
+        "category": "",
+        "value":1
       }
     ]
   },
@@ -47,7 +47,7 @@
         "value": 1
       },
       {
-        "label": "Laat ik dit iedereen weten",
+        "label": "Laat ik dit aan iedereen weten",
         "category": "Sociaal",
         "value": 1
       }
@@ -55,7 +55,7 @@
   },
   {
     "id": 3,
-    "label": "Ohnee! De aarde warmt op, wat doe je?",
+    "label": "Oh nee! De aarde warmt op, wat doe je?",
     "image": "",
     "options": [
       {
@@ -69,7 +69,7 @@
         "value": 1
       },
       {
-        "label": "Een klein steentje bijdragen en die opblazen",
+        "label": "Een klein steentje bijdragen en die overdrijven",
         "category": "Artistiek",
         "value": 1
       },
@@ -79,7 +79,7 @@
         "value": 1
       },
       {
-        "label": "Dansen naar de goden",
+        "label": "Offeren aan de goden",
         "category": "Ondernemend",
         "value": 1
       }
@@ -91,7 +91,7 @@
     "image": "",
     "options": [
       {
-        "label": "Doen alsof ik zonnepanelen koop",
+        "label": "Doen alsof je zonnepanelen koopt",
         "category": "Realistisch",
         "value": 1
       },
@@ -102,12 +102,12 @@
       },
       {
         "label": "Iedereen vertellen dat je intenties hebt om zonnepanelen te kopen",
-        "category": "Artistiek",
+        "category": "Sociaal",
         "value": 1
       },
       {
-        "label": "Zonnepanelen onderzoeken",
-        "category": "Sociaal",
+        "label": "Onderzoek doen naar zonnepanelen",
+        "category": "Convectioneel",
         "value": 1
       }
     ]
@@ -119,18 +119,18 @@
     "options": [
       {
         "label": "Lekker!",
-        "category": "Realistisch",
-        "value": 1
+        "category": "",
+        "value": 0
       },
       {
         "label": "Bah",
-        "category": "Intellectueel",
-        "value": 1
+        "category": "",
+        "value": 0
       },
       {
         "label": "Liever een Snicker",
-        "category": "Artistiek",
-        "value": 1
+        "category": "",
+        "value": 0
       }
     ]
   },
@@ -141,18 +141,18 @@
     "options": [
       {
         "label": "CO2",
-        "category": "Realistisch",
-        "value": 1
+        "category": "",
+        "value": 0
       },
       {
-        "label": "Asbest",
-        "category": "Intellectueel",
-        "value": 1
+        "label": "Olie",
+        "category": "",
+        "value": 0
       },
       {
-        "label": "Kool",
-        "category": "Artistiek",
-        "value": 1
+        "label": "Kolen",
+        "category": "",
+        "value": 0
       }
     ]
   },
@@ -163,7 +163,7 @@
     "options": [
       {
         "label": "Een eigen nietszeggend label beginnen",
-        "category": "Realistisch",
+        "category": "Convectioneel",
         "value": 1
       },
       {
@@ -194,7 +194,7 @@
     "image": "",
     "options": [
       {
-        "label": "Uitleggen dat die acus kunnen echt niet kunnen",
+        "label": "Uitleggen dat die accu's echt niet kunnen",
         "category": "Realistisch",
         "value": 1
       },
@@ -204,8 +204,8 @@
         "value": 1
       },
       {
-        "label": "Hem ontslaan ",
-        "category": "Artistiek",
+        "label": "Zijn CO2 besparing zelf compenseren ",
+        "category": "Ondernemend",
         "value": 1
       },
       {
@@ -217,39 +217,39 @@
   },
   {
     "id": 9,
-    "label": "Het bedrijf waar je werkt wilt groener overkomen, wat doe je?",
+    "label": "Oh nee, het waterpeil stijgt 2 meter in Nederland. Wat doe je?",
     "image": "",
     "options": [
       {
-        "label": "Een eigen nietszeggend label beginnen",
+        "label": "Doen alsof ik minder CO2 uitstoot",
+        "category": "Intelectueel",
+        "value": 1
+      },
+      {
+        "label": "Een huis op een berg bouwen",
         "category": "Realistisch",
         "value": 1
       },
       {
-        "label": "Loze beloftes over het milieu maken",
-        "category": "Intellectueel",
+        "label": "Verhuizen",
+        "category": "Convectioneel",
         "value": 1
       },
       {
-        "label": "De huisstijl naar groen veranderen",
-        "category": "Artistiek",
-        "value": 1
-      },
-      {
-        "label": "Zeggen dat je relatief groen bent",
-        "category": "Sociaal",
-        "value": 1
-      },
-      {
-        "label": "Gebruik maken van onduidelijke termen zoals ‘duurzaam’",
+        "label": "Regenlaarzen kopen",
         "category": "Ondernemend",
+        "value": 1
+      },
+      {
+        "label": "Niks",
+        "category": "Artistiek",
         "value": 1
       }
     ]
   },
   {
     "id": 10,
-    "label": "Stel het bedrijf waar je werkt ligt onder vuur door haar klimaatbeleid, wat doe je?",
+    "label": "Stel, het bedrijf waar je werkt ligt onder vuur door haar klimaatbeleid, wat doe je?",
     "image": "",
     "options": [
       {
@@ -264,14 +264,20 @@
       },
       {
         "label": "Ik verander van baan",
-        "category": "Artistiek",
+        "category": "Ondernemend",
+        "value": 1
+      },
+      {
+        "label": "Schuiven met getalletjes",
+        "category": "Convectioneel",
         "value": 1
       }
+
     ]
   },
   {
     "id": 11,
-    "label": "Oh nee! De regering wil een co2 taks invoeren, wat doe je?",
+    "label": "Oh nee! De regering wil een CO2 taks invoeren, wat doe je?",
     "image": "",
     "options": [
       {
@@ -281,7 +287,7 @@
       },
       {
         "label": "Verhuizen naar Duitsland",
-        "category": "Intellectueel",
+        "category": "Ondernemend",
         "value": 1
       },
       {
@@ -290,7 +296,7 @@
         "value": 1
       },
       {
-        "label": "Lobbyisten aannemen om de publieke opinie te kantellen",
+        "label": "Lobbyisten aannemen om de publieke opinie te kantelen",
         "category": "Sociaal",
         "value": 1
       }
@@ -303,26 +309,21 @@
     "options": [
       {
         "label": "Kunst",
-        "category": "Realistisch",
-        "value": 1
-      },
-      {
-        "label": "Inkt",
-        "category": "Intellectueel",
-        "value": 1
-      },
-      {
-        "label": "Lekker weer",
         "category": "Artistiek",
         "value": 1
       },
       {
-        "label": "Geld",
-        "category": "Sociaal",
+        "label": "Inktvlekken",
+        "category": "Intellectueel",
         "value": 1
       },
       {
-        "label": "Een geheime formule",
+        "label": "Geld",
+        "category": "Ondernemend",
+        "value": 1
+      },
+      {
+        "label": "Olievlekken",
         "category": "Sociaal",
         "value": 1
       }
@@ -340,12 +341,12 @@
       },
       {
         "label": "Miljonair",
-        "category": "Intellectueel",
+        "category": "Ondernemend",
         "value": 1
       },
       {
         "label": "Greenwasher",
-        "category": "Artistiek",
+        "category": "Convectioneel",
         "value": 1
       },
       {
@@ -355,7 +356,7 @@
       },
       {
         "label": "Kunstenaar",
-        "category": "Sociaal",
+        "category": "Artistiek",
         "value": 1
       }
     ]
@@ -370,12 +371,12 @@
         "items": [
           {
             "label": "Filmen",
-            "category": "Intellectueel",
+            "category": "Realistisch",
             "value": 1
           },
           {
             "label": "Gefilmd worden",
-            "category": "Intellectueel",
+            "category": "Sociaal",
             "value": 1
           }
         ]
@@ -384,12 +385,12 @@
         "items": [
           {
             "label": "Huis verkopen",
-            "category": "Intellectueel",
+            "category": "Sociaal",
             "value": 1
           },
           {
             "label": "Huis verbouwen",
-            "category": "Intellectueel",
+            "category": "Convectioneel",
             "value": 1
           }
         ]
@@ -398,12 +399,12 @@
         "items": [
           {
             "label": "Kok",
-            "category": "Intellectueel",
+            "category": "Realistisch",
             "value": 1
           },
           {
             "label": "Ober",
-            "category": "Intellectueel",
+            "category": "Convectioneel",
             "value": 1
           }
         ]
@@ -417,7 +418,7 @@
           },
           {
             "label": "Schilderen",
-            "category": "Intellectueel",
+            "category": "Artistiek",
             "value": 1
           }
         ]
@@ -431,7 +432,7 @@
           },
           {
             "label": "Presenteren",
-            "category": "Intellectueel",
+            "category": "Ondernemend",
             "value": 1
           }
         ]
@@ -440,12 +441,12 @@
         "items": [
           {
             "label": "Werkelijkheid",
-            "category": "Intellectueel",
+            "category": "Realistisch",
             "value": 1
           },
           {
             "label": "Sprookjes",
-            "category": "Intellectueel",
+            "category": "Artistiek",
             "value": 1
           }
         ]
@@ -462,12 +463,12 @@
         "items": [
           {
             "label": "Wat is",
-            "category": "Intellectueel",
+            "category": "Intelectueel",
             "value": 1
           },
           {
             "label": "Wat kan zijn",
-            "category": "Intellectueel",
+            "category": "Artistiek",
             "value": 1
           }
         ]
@@ -475,13 +476,13 @@
       {
         "items": [
           {
-            "label": "zwart en wit",
-            "category": "Intellectueel",
+            "label": "Zwart en wit",
+            "category": "Convectioneel",
             "value": 1
           },
           {
             "label": "Grijs",
-            "category": "Intellectueel",
+            "category": "Ondernemend",
             "value": 1
           }
         ]
@@ -495,7 +496,7 @@
           },
           {
             "label": "Buiten",
-            "category": "Intellectueel",
+            "category": "Realistisch",
             "value": 1
           }
         ]
@@ -504,12 +505,12 @@
         "items": [
           {
             "label": "Aanpassen",
-            "category": "Intellectueel",
+            "category": "Ondernemend",
             "value": 1
           },
           {
             "label": "Controleren",
-            "category": "Intellectueel",
+            "category": "Convectioneel",
             "value": 1
           }
         ]
@@ -518,12 +519,12 @@
         "items": [
           {
             "label": "Wilskrachtig",
-            "category": "Intellectueel",
+            "category": "Ondernemend",
             "value": 1
           },
           {
             "label": "Zachtzinnig",
-            "category": "Intellectueel",
+            "category": "Sociaal",
             "value": 1
           }
         ]
@@ -532,12 +533,12 @@
         "items": [
           {
             "label": "Dansvloer",
-            "category": "Intellectueel",
+            "category": "Artistiek",
             "value": 1
           },
           {
             "label": "Bar",
-            "category": "Intellectueel",
+            "category": "Sociaal",
             "value": 1
           }
         ]
