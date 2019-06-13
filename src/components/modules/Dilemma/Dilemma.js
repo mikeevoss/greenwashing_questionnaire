@@ -33,23 +33,23 @@ class Dilemma extends Component {
       <ul className={cN(s.root)}>
         {options &&
           options.map((option, index) => {
+            const items = options.items || [];
             return (
               <li key={index} className={s.option}>
                 <ul className={cN(s.list)}>
-                  {!options.items &&
-                    option.items.map(option => {
-                      const active =
-                        results[index] && results[index].label === option.label;
-                      return (
-                        <button
-                          key={option.label}
-                          onClick={() => this.handleChange(option, index)}
-                          className={cN(s.button, { [s.active]: active })}
-                        >
-                          {option.label}
-                        </button>
-                      );
-                    })}
+                  {items.map(option => {
+                    const active =
+                      results[index] && results[index].label === option.label;
+                    return (
+                      <button
+                        key={option.label}
+                        onClick={() => this.handleChange(option, index)}
+                        className={cN(s.button, { [s.active]: active })}
+                      >
+                        {option.label}
+                      </button>
+                    );
+                  })}
                 </ul>
               </li>
             );
