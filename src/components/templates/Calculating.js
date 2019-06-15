@@ -33,7 +33,7 @@ class Calculating extends PureComponent {
     const result = await response.json();
     this.setResult(result);
     localStorage.removeItem("answers");
-    localStorage.setItem('result', JSON.stringify(answers));
+    localStorage.setItem("result", JSON.stringify(answers));
   };
 
   setResult = result => {
@@ -53,7 +53,13 @@ class Calculating extends PureComponent {
           <Fragment>
             <h1>Done!</h1>
 
-            <Button autoGoAfterDelay showDelay={5} writeFile="6" to={`/result/${result.id}`} primary>
+            <Button
+              autoGoAfterDelay
+              showDelay={5}
+              writeFile="6"
+              to={`/result/${result.id}`}
+              primary
+            >
               Mijn future green job
             </Button>
           </Fragment>

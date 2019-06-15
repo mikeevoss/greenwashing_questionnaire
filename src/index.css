@@ -1,15 +1,19 @@
 :root {
-  --color-green: #14732B;
-  --color-green--dark: #0F521F;
+  --color-green: #14732b;
+  --color-green--dark: #0f521f;
   --color-green--light: #449d44;
 }
 
 body {
-  background: linear-gradient(to right, var(--color-green), var(--color-green--dark));
+  background: linear-gradient(
+    to right,
+    var(--color-green),
+    var(--color-green--dark)
+  );
   color: #fff;
   margin: 0;
-  font-family: 'Oxygen', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: "Oxygen", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,9 +21,11 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 22px;
+  overflow: hidden;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;

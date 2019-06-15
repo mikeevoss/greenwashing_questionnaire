@@ -4,6 +4,7 @@ const fs = require("fs");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const shortId = require("shortid");
+const sendMail = require("./sendMail");
 
 app.use(express.static("public"));
 app.use(
@@ -32,6 +33,11 @@ app.post("/write/responses", function(req, res) {
   newResponses[id] = req.body;
   fs.writeFileSync(file, JSON.stringify(newResponses));
   res.send({ id });
+});
+
+app.post("/email", function(req, res) {
+  sendMail(req.body);
+  res.send({ message: "Succes!" });
 });
 
 const handleButtonPress = ({ message, filename }) => {
